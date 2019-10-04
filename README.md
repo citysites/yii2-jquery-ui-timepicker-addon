@@ -1,4 +1,4 @@
-# Yii2 wrap for Yii2 asset for https://github.com/trentrichardson/jQuery-Timepicker-Addon
+# Yii2 asset for Yii2 asset for https://github.com/trentrichardson/jQuery-Timepicker-Addon
 
 ## Documentation
 
