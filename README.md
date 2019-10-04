@@ -1,8 +1,8 @@
-# Yii2 wrap for https://github.com/osano/cookieconsent
+# Yii2 wrap for Yii2 asset for https://github.com/trentrichardson/jQuery-Timepicker-Addon
 
 ## Documentation
 
-All documantation about cookieconsent you can find [here](https://cookieconsent.osano.com/documentation/about-cookie-consent/)
+All documantation about cookieconsent you can find [here](https://github.com/trentrichardson/jQuery-Timepicker-Addon)
 
 ## Installation
 
@@ -10,14 +10,13 @@ All documantation about cookieconsent you can find [here](https://cookieconsent.
 
 The preferred way to install this extension is through [Composer](http://getcomposer.org/).
 
-Either run ```composer require citysites/yii2-cookieconsent```
+Either run ```composer require citysites/yii2-jquery-ui-timepicker-addon```
 
-or add ```"citysites/yii2-cookieconsent": "*"``` to the require section of your ```composer.json```
+or add ```"citysites/yii2-jquery-ui-timepicker-addon": "*"``` to the require section of your ```composer.json```
 
 ## Usage
 
 ```php
-use \citysites\widgets\CookieConsent;
-...
-echo CookieConsent::widget();
+use \citysites\assets\JuiTimepickerAddonAsset;
+JuiTimepickerAddonAsset::register($this);// $this represents the view object
 ```
