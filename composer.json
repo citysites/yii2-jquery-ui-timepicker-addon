@@ -1,0 +1,28 @@
+{
+    "name": "citysites/yii2-jquery-ui-timepicker-addon",
+    "description": "Yii2 asset for https://github.com/trentrichardson/jQuery-Timepicker-Addon",
+    "keywords": ["yii2","asset","jquery","timepicker"],
+    "license": "BSD-3-Clause",
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "yiisoft/yii2-jui": "*",
+        "npm-asset/jquery-ui-timepicker-addon": "^1.6"
+    },
+    "authors": [
+        {
+            "name": "nikosid",
+            "email": "nikosid@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "citysites\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
