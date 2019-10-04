@@ -10,21 +10,21 @@ class JuiTimepickerAddonAsset extends AssetBundle
     /**
      * {@inheritDoc}
      */
-    public $sourcePath = '@vendor/npm-asset/jquery-ui-timepicker-addon';
+    public $sourcePath = '@vendor/npm-asset/jquery-ui-timepicker-addon/dist';
     /**
      * {@inheritDoc}
      */
 
     public $css = [
-        'src/jquery-ui-timepicker-addon.min.css'
+        'jquery-ui-timepicker-addon.min.css'
     ];
 
     /**
      * {@inheritDoc}
      */
     public $js = [
-        'src/jquery-ui-timepicker-addon.min.js',
-        'dist/i18n/jquery-ui-timepicker-addon-i18n.min.js'
+        'jquery-ui-timepicker-addon.min.js',
+        'i18n/jquery-ui-timepicker-addon-i18n.min.js'
     ];
 
     /**
